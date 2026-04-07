@@ -1,0 +1,11 @@
+requests
+pandas
+python-dotenv
+duckdb
+lxml
+
+# Uncomment these if using BigQuery as your warehouse:
+# google-cloud-bigquery
+# google-cloud-bigquery-storage
+# pyarrow
+# db-dtypes
