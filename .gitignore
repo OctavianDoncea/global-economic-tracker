@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+*.egg
+
+# Environment
+.env
+
+# Data files
+data/raw/
+data/state/
+data/warehouse.duckdb
+data/warehouse.duckdb.wal
+*.duckdb
+*.duckdb.wal
+
+# GCP credentials
+*-credentials.json
+*-key.json
+service-account*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Great Expectations
+quality/great_expectations/uncommitted/
